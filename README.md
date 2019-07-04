@@ -12,16 +12,18 @@ These teams can increase overall company effectiveness because they strengthen t
 
 ## Project Features
 
-![BCG Matrix](plot.ly/~adam.c.dick/2.embed)
+![BCG Growth-Share Matrix](/img/01_Growth_Share_Matrix_of_Licensed_Dogs.jpeg)
+
+[View the interactive plot of The BCG Growth-Share Matrix on Plotly](https://plot.ly/~adam.c.dick/2/growth-share-matrix-of-licensed-dogs-in-new-york-by-neighborhood/)
 
 ## Data Products
 
 ## Output Results
 
-![First 10 Neighborhoods Mixed Format](/img/01_First_10_Neighborhoods_Mixed_Format.png)
-![First 10 Neighborhoods Long Format](/img/02_First_10_Neighborhoods_Long_Format.png)
-![First 10 Pet Stores](/img/03_First_10_Pet_Stores.png)
-![Concentration Ratios for Top 8 Firms](/img/04_Concentration_Ratios_for_Top_8_Firms.png)
-![Concentration Ratios for Top 8 Neighborhoods](/img/05_Concentration_Ratios_for_Top_8_Neighborhoods.png)
-![First 10 Licensed Dogs](/img/06_First_10_Licensed_Dogs.png)
-![Market Share and Growth Rate](/img/07_Market_Share_and_Growth_Rate.png)
+![First 10 Neighborhoods Mixed Format](/img/02_First_10_Neighborhoods_Mixed_Format.png)
+![First 10 Neighborhoods Long Format](/img/03_First_10_Neighborhoods_Long_Format.png)
+![First 10 Pet Stores](/img/04_First_10_Pet_Stores.png)
+![Concentration Ratios for Top 8 Firms](/img/05_Concentration_Ratios_for_Top_8_Firms.png)
+![Concentration Ratios for Top 8 Neighborhoods](/img/06_Concentration_Ratios_for_Top_8_Neighborhoods.png)
+![First 10 Licensed Dogs](/img/07_First_10_Licensed_Dogs.png)
+![Market Share and Growth Rate](/img/08_Market_Share_and_Growth_Rate.png)
