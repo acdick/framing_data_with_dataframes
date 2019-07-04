@@ -12,16 +12,16 @@ These teams can increase overall company effectiveness because they strengthen t
 
 ## Project Features
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~adam.c.dick/2.embed"></iframe>
+![BCG Matrix](plot.ly/~adam.c.dick/2.embed)
 
 ## Data Products
 
 ## Output Results
 
-![First 10 Neighborhoods Mixed Format](01_First_10_Neighborhoods_Mixed_Format.png)
-![First 10 Neighborhoods Long Format](02_First_10_Neighborhoods_Long_Format.png)
-![First 10 Pet Stores](03_First_10_Pet_Stores.png)
-![Concentration Ratios for Top 8 Firms](04_Concentration_Ratios_for_Top_8_Firms.png)
-![Concentration Ratios for Top 8 Neighborhoods](05_Concentration_Ratios_for_Top_8_Neighborhoods.png)
-![First 10 Licensed Dogs](06_First_10_Licensed_Dogs.png)
-![Market Share and Growth Rate](07_Market_Share_and_Growth_Rate.png)
+![First 10 Neighborhoods Mixed Format](/img/01_First_10_Neighborhoods_Mixed_Format.png)
+![First 10 Neighborhoods Long Format](/img/02_First_10_Neighborhoods_Long_Format.png)
+![First 10 Pet Stores](/img/03_First_10_Pet_Stores.png)
+![Concentration Ratios for Top 8 Firms](/img/04_Concentration_Ratios_for_Top_8_Firms.png)
+![Concentration Ratios for Top 8 Neighborhoods](/img/05_Concentration_Ratios_for_Top_8_Neighborhoods.png)
+![First 10 Licensed Dogs](/img/06_First_10_Licensed_Dogs.png)
+![Market Share and Growth Rate](/img/07_Market_Share_and_Growth_Rate.png)
