@@ -14,14 +14,13 @@ These teams can increase overall company effectiveness because they strengthen t
 
 * [Project Features](#project-features)
 * [Data Products](#data-products)
-* [Source Code](#source-code)
 * [Output Results](#output-results)
 * [Contribute](#contribute)
 
 ## Project Features
 PET CARE INDUSTRY | BUSINESS INTELLIGENCE | BCG GROWTH-SHARE MATRIX | FEATURE ENGINEERING
 
-[View the interactive plot of The BCG Growth-Share Matrix on Plotly](https://plot.ly/~adam.c.dick/2/growth-share-matrix-of-licensed-dogs-in-new-york-by-neighborhood/)
+[View the interactive plot of The BCG Growth-Share Matrix in Plotly](https://plot.ly/~adam.c.dick/2/growth-share-matrix-of-licensed-dogs-in-new-york-by-neighborhood/)
 
 <p align="center">
   <img src="/img/01_Growth_Share_Matrix_of_Licensed_Dogs.jpeg" title="BCG Growth-Share Matrix">
@@ -44,17 +43,14 @@ YELP FUSION API | NYC OPEN DATA | REQUESTS
 
 **[NYC Dog Licensing Dataset](https://data.cityofnewyork.us/Health/NYC-Dog-Licensing-Dataset/nu7n-tubp)**
 
-## Source Code
-PYTHON | PANDAS | SQL | SQLITE3 | JSON | TIME
+## Output Results
+PYTHON | PANDAS | SQL | SQLITE3 | JSON | TIME | PLOTLY | SEABORN | MATPLOTLIB | NUMPY
 
 **[New York State Department of Health](https://github.com/acdick/framing_data_with_dataframes/blob/master/src/01_Neighborhoods.ipynb)**
 
 **[Yelp Fusion API](https://github.com/acdick/framing_data_with_dataframes/blob/master/src/02_Pet_Stores_and_Services.ipynb)**
 
 **[NYC Open Data](https://github.com/acdick/framing_data_with_dataframes/blob/master/src/03_Dogs.ipynb)**
-
-## Output Results
-PLOTLY | SEABORN | MATPLOTLIB | NUMPY
 
 **[Exploratory Data Analysis](https://github.com/acdick/framing_data_with_dataframes/blob/master/src/04_Exploratory_Data_Analysis.ipynb)**
 * Competitor concentration
