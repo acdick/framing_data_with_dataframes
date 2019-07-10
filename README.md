@@ -25,7 +25,10 @@ PLOTLY
 
 [View the interactive plot of The BCG Growth-Share Matrix on Plotly](https://plot.ly/~adam.c.dick/2/growth-share-matrix-of-licensed-dogs-in-new-york-by-neighborhood/)
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~adam.c.dick/2.embed"></iframe>
+<div>
+    <a href="https://plot.ly/~adam.c.dick/2/?share_key=DDtPF3A6fh2n6MzosKmJUX" target="_blank" title="bcg-matrix" style="display: block; text-align: center;"><img src="https://plot.ly/~adam.c.dick/2.png?share_key=DDtPF3A6fh2n6MzosKmJUX" alt="bcg-matrix" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="adam.c.dick:2" sharekey-plotly="DDtPF3A6fh2n6MzosKmJUX" src="https://plot.ly/embed.js" async></script>
+</div>
 
 ## Data Products
 YELP FUSION API | NYC OPEN DATA
@@ -34,29 +37,42 @@ YELP FUSION API | NYC OPEN DATA
 
 ## Output Results
 
+**First 10 Neighborhoods in New York, Mixed Format (Wide and Long ), NYS Dept. of Health**<br>
+
 <p align="center">
   <img src="/img/02_First_10_Neighborhoods_Mixed_Format.png" title="First 10 Neighborhoods Mixed Format">
 </p>
+
+**First 10 Neighborhoods in New York, Long Format**<br>
 
 <p align="center">
   <img src="/img/03_First_10_Neighborhoods_Long_Format.png" title="First 10 Neighborhoods Long Format">
 </p>
 
+**First 10 New York Pet Stores and Pet Services Actively Operating in 2019, Yelp Fusion API**<br>
+
 <p align="center">
   <img src="/img/04_First_10_Pet_Stores.png" title="First 10 Pet Stores">
 </p>
+
+**Concentration Ratios for the Top 8 Firms in the New York Pet Care Industry**<br>
 
 <p align="center">
   <img src="/img/05_Concentration_Ratios_for_Top_8_Firms.png" title="Concentration Ratios for Top 8 Firms">
 </p>
 
+**Concentration Ratios for the Top 8 Neighborhoods in the New York Pet Care Industry**<br>
+
 <p align="center">
   <img src="/img/06_Concentration_Ratios_for_Top_8_Neighborhoods.png" title="Concentration Ratios for Top 8 Neighborhoods">
 </p>
 
+**First 10 of 121,713 New York Licensed Dogs from 2014–2022, NYC Open Data**<br>
 <p align="center">
   <img src="/img/07_First_10_Licensed_Dogs.png" title="First 10 Licensed Dogs">
 </p>
+
+**Market Share and Growth Rate (2014–2019) of Pet Care Industry for First 10 Neighborhoods in New York**<br>
 
 <p align="center">
   <img src="/img/08_Market_Share_and_Growth_Rate.png" title="Market Share and Growth Rate">
