@@ -19,23 +19,47 @@ These teams can increase overall company effectiveness because they strengthen t
 * [Contribute](#contribute)
 
 ## Project Features
-PLOTLY
-
-![BCG Growth-Share Matrix](/img/01_Growth_Share_Matrix_of_Licensed_Dogs.jpeg)
+PET CARE INDUSTRY | BUSINESS INTELLIGENCE | BCG GROWTH-SHARE MATRIX | FEATURE ENGINEERING
 
 [View the interactive plot of The BCG Growth-Share Matrix on Plotly](https://plot.ly/~adam.c.dick/2/growth-share-matrix-of-licensed-dogs-in-new-york-by-neighborhood/)
 
-<div>
-    <a href="https://plot.ly/~adam.c.dick/2/?share_key=DDtPF3A6fh2n6MzosKmJUX" target="_blank" title="bcg-matrix" style="display: block; text-align: center;"><img src="https://plot.ly/~adam.c.dick/2.png?share_key=DDtPF3A6fh2n6MzosKmJUX" alt="bcg-matrix" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="adam.c.dick:2" sharekey-plotly="DDtPF3A6fh2n6MzosKmJUX" src="https://plot.ly/embed.js" async></script>
-</div>
+<p align="center">
+  <img src="/img/01_Growth_Share_Matrix_of_Licensed_Dogs.jpeg" title="BCG Growth-Share Matrix">
+</p>
+
+- [x] **Exploratory Data Analysis**<br>
+EDA
+- [x] **Competitor Concentration**<br>
+Concentration ratios and Herfindahl-Hirschman Index (HHI)
+- [x] **Market Size**<br>
+Dogs per neighborhood
+
 
 ## Data Products
-YELP FUSION API | NYC OPEN DATA
+YELP FUSION API | NYC OPEN DATA | REQUESTS
+
+**[New York State Department of Health Zip Codes](https://www.health.ny.gov/statistics/cancer/registry/appendix/neighborhoods.htm)**
+
+**[Yelp Pet Stores and Pet Services](https://www.yelp.com/fusion)**
+
+**[NYC Dog Licensing Dataset](https://data.cityofnewyork.us/Health/NYC-Dog-Licensing-Dataset/nu7n-tubp)**
 
 ## Source Code
+PYTHON | PANDAS | SQL | SQLITE3 | JSON | TIME
+
+**[New York State Department of Health](https://github.com/acdick/framing_data_with_dataframes/blob/master/src/01_Neighborhoods.ipynb)**
+
+**[Yelp Fusion API](https://github.com/acdick/framing_data_with_dataframes/blob/master/src/02_Pet_Stores_and_Services.ipynb)**
+
+**[NYC Open Data](https://github.com/acdick/framing_data_with_dataframes/blob/master/src/03_Dogs.ipynb)**
 
 ## Output Results
+PLOTLY | SEABORN | MATPLOTLIB | NUMPY
+
+**[Exploratory Data Analysis](https://github.com/acdick/framing_data_with_dataframes/blob/master/src/04_Exploratory_Data_Analysis.ipynb)**
+* Competitor concentration
+* Market size
+* The BCG Growth-Share Matrix
 
 **First 10 Neighborhoods in New York, Mixed Format (Wide and Long ), NYS Dept. of Health**<br>
 
