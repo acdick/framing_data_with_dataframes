@@ -20,37 +20,49 @@ These teams can increase overall company effectiveness because they strengthen t
 ## Project Features
 PET CARE INDUSTRY | BUSINESS INTELLIGENCE | BCG GROWTH-SHARE MATRIX | FEATURE ENGINEERING
 
-[View the interactive plot of The BCG Growth-Share Matrix in Plotly](https://plot.ly/~adam.c.dick/2/growth-share-matrix-of-licensed-dogs-in-new-york-by-neighborhood/)
+[View the interactive plot of The BCG Growth-Share Matrix in Plotly...](https://plot.ly/~adam.c.dick/2/growth-share-matrix-of-licensed-dogs-in-new-york-by-neighborhood/)
 
 <p align="center">
   <img src="/img/01_Growth_Share_Matrix_of_Licensed_Dogs.jpeg" title="BCG Growth-Share Matrix">
 </p>
 
-- [x] **Exploratory Data Analysis**<br>
-EDA
+- [x] **The BCG Matrix**<br>
+Data-driven visualization of the pet care industry in New York City based on constituent growth rates and market share, creating four quadrants called Dogs, Question Marks, Stars and Cash Cows.
+- [x] **Dogs**<br>
+Low-growth, low-share markets that typically struggle to break-even. The conventional wisdom of analysts is to liquidate business in this area.
+- [x] **Question Marks**<br>
+High-growth, low-share markets that have both potential and risk. New businesses target this area through a select and divest strategy.
+- [x] **Stars**<br>
+Question Marks that have been widely adopted to become market leaders. Continued growth pushes firms to invest due to high competition.
+- [x] **Cash Cows**<br>
+Mature markets where entrenched players can maintain their position with minimal investment, allowing them to milk reliable cash flows.
 - [x] **Competitor Concentration**<br>
-Concentration ratios and Herfindahl-Hirschman Index (HHI)
+Concentration Ratios (CR) and Herfindahl-Hirschman Index (HHI) of the total market share held by the top firms in the industry as well as the geographic density by neighborhood.
 - [x] **Market Size**<br>
-Dogs per neighborhood
-
+5-Year Compound Average Growth Rate (CAGR) from 2014 to 2019 of licensed dogs for each New York City neighborhood.
 
 ## Data Products
 YELP FUSION API | NYC OPEN DATA | REQUESTS
 
+The American Pet Products Association (APPA) [estimates](https://www.americanpetproducts.org/press_releasedetail.asp?id=191) that the pet care industry will exceed $75 billion in 2019, increasing by 3.9% over the previous year. Consumer spending categories are led by pet food ($32 billion), veterinary care ($19 billion) and supplies & OTC medicine ($16 billion).
+
 **[New York State Department of Health Zip Codes](https://www.health.ny.gov/statistics/cancer/registry/appendix/neighborhoods.htm)**
+* 42 NYC neighborhoods
 
 **[Yelp Pet Stores and Pet Services](https://www.yelp.com/fusion)**
+* 1,502 unique pet stores and services actively operating in 2019
 
 **[NYC Dog Licensing Dataset](https://data.cityofnewyork.us/Health/NYC-Dog-Licensing-Dataset/nu7n-tubp)**
+* 122,000 licensed dogs in New York City
 
 ## Output Results
 PYTHON | PANDAS | SQL | SQLITE3 | JSON | TIME | PLOTLY | SEABORN | MATPLOTLIB | NUMPY
 
-**[New York State Department of Health](https://github.com/acdick/framing_data_with_dataframes/blob/master/src/01_Neighborhoods.ipynb)**
+**[New York City Neighborhoods](https://github.com/acdick/framing_data_with_dataframes/blob/master/src/01_Neighborhoods.ipynb)**
 
-**[Yelp Fusion API](https://github.com/acdick/framing_data_with_dataframes/blob/master/src/02_Pet_Stores_and_Services.ipynb)**
+**[Pet Stores and Services](https://github.com/acdick/framing_data_with_dataframes/blob/master/src/02_Pet_Stores_and_Services.ipynb)**
 
-**[NYC Open Data](https://github.com/acdick/framing_data_with_dataframes/blob/master/src/03_Dogs.ipynb)**
+**[Licensed NYC Dogs](https://github.com/acdick/framing_data_with_dataframes/blob/master/src/03_Dogs.ipynb)**
 
 **[Exploratory Data Analysis](https://github.com/acdick/framing_data_with_dataframes/blob/master/src/04_Exploratory_Data_Analysis.ipynb)**
 * Competitor concentration
@@ -75,13 +87,19 @@ PYTHON | PANDAS | SQL | SQLITE3 | JSON | TIME | PLOTLY | SEABORN | MATPLOTLIB | 
   <img src="/img/04_First_10_Pet_Stores.png" title="First 10 Pet Stores">
 </p>
 
-**Concentration Ratios for the Top 8 Firms in the New York Pet Care Industry**<br>
+**Concentration Ratios for the Top 8 Firms in the New York Pet Care Industry**
+* CR4 of top four firms of 8.9%
+* CR8 of top eight firms of 11.9%
+* HHI of 31 out of 10,000 (high competition)
 
 <p align="center">
   <img src="/img/05_Concentration_Ratios_for_Top_8_Firms.png" title="Concentration Ratios for Top 8 Firms">
 </p>
 
-**Concentration Ratios for the Top 8 Neighborhoods in the New York Pet Care Industry**<br>
+**Concentration Ratios for the Top 8 Neighborhoods in the New York Pet Care Industry**
+* CR4 of top four firms of 30.6%
+* CR8 of top eight firms of 49.9%
+* HHI of 448 out of 10,000 (high competition)
 
 <p align="center">
   <img src="/img/06_Concentration_Ratios_for_Top_8_Neighborhoods.png" title="Concentration Ratios for Top 8 Neighborhoods">
