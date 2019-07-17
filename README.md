@@ -20,22 +20,29 @@ These teams can increase overall company effectiveness because they strengthen t
 ## Project Features
 PET CARE INDUSTRY | BUSINESS INTELLIGENCE | BCG GROWTH-SHARE MATRIX | FEATURE ENGINEERING
 
-[View the interactive chart of The BCG Growth-Share Matrix in Plotly...](https://plot.ly/~adam.c.dick/2/growth-share-matrix-of-licensed-dogs-in-new-york-by-neighborhood/)
+[The Growth-Share Matrix (a.k.a. The BCG Matrix)](https://hbr.org/2011/12/the-charts-that-changed-the-world)
 
 <p align="center">
-  <img src="/img/01_Growth_Share_Matrix_of_Licensed_Dogs.jpeg" title="BCG Growth-Share Matrix">
+  <img src="/img/00_The_BCG_Matrix.gif" title="The BCG Growth-Share Matrix">
 </p>
 
-- [x] **The BCG Growth Matrix**<br>
-Data-driven visualization of the pet care industry in New York City based on constituent growth rates and market share, creating four quadrants called Dogs, Question Marks, Stars and Cash Cows.
+[View the interactive chart of The Pet Care Industry BCG Matrix in Plotly...](https://plot.ly/~adam.c.dick/2/growth-share-matrix-of-licensed-dogs-in-new-york-by-neighborhood/)
+
+<p align="center">
+  <img src="/img/01_Growth_Share_Matrix_of_Licensed_Dogs.jpeg" title="The Pet Care Industry BCG Matrix">
+</p>
+
+- [x] **The BCG Growth-Share Matrix**<br>
+The BCG Matrix evaluates a market based on constituent growth rates and market share, creating four quadrants called Dogs, Question Marks, Stars and Cash Cows.
 - [x] **New York Neighborhoods**<br>
+The New York State Department of Health’s ZIP Code Definitions of New York City Neighborhoods that subdivides the city into 42 manageable Neighborhoods.
 - [x] **Competitor Concentration**<br>
-Concentration Ratios (CR) and Herfindahl-Hirschman Index (HHI) of the total market share held by the top firms in the industry as well as the geographic density by neighborhood.
+Market concentration is a fundamental measure of industry competitiveness, where markets can range between perfect and monopolistic competition.
 - [x] **Market Size**<br>
-5-Year Compound Average Growth Rate (CAGR) from 2014 to 2019 of licensed dogs for each New York City neighborhood.
+By selecting only the active dog licenses in every calendar year, we can calculate the 5-Year Compound Annual Growth Rate (CAGR) from 2014 to 2019 for each neighborhood.
 
 ## Data Products
-YELP FUSION API | NYC OPEN DATA | REQUESTS
+YELP FUSION API | NYC OPENDATA | REQUESTS
 
 The American Pet Products Association (APPA) [estimates](https://www.americanpetproducts.org/press_releasedetail.asp?id=191) that the pet care industry will exceed $75 billion in 2019, increasing by 3.9% over the previous year. Consumer spending categories are led by pet food ($32 billion), veterinary care ($19 billion) and supplies & OTC medicine ($16 billion).
 
