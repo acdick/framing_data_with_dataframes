@@ -26,16 +26,9 @@ PET CARE INDUSTRY | BUSINESS INTELLIGENCE | BCG GROWTH-SHARE MATRIX | FEATURE EN
   <img src="/img/01_Growth_Share_Matrix_of_Licensed_Dogs.jpeg" title="BCG Growth-Share Matrix">
 </p>
 
-- [x] **The BCG Matrix**<br>
+- [x] **The BCG Growth Matrix**<br>
 Data-driven visualization of the pet care industry in New York City based on constituent growth rates and market share, creating four quadrants called Dogs, Question Marks, Stars and Cash Cows.
-- [x] **The BCG Matrix: Dogs**<br>
-Low-growth, low-share markets that typically struggle to break-even. The conventional wisdom of analysts is to liquidate business in this area.
-- [x] **The BCG Matrix: Question Marks**<br>
-High-growth, low-share markets that have both potential and risk. New businesses target this area through a select and divest strategy.
-- [x] **The BCG Matrix: Stars**<br>
-Question Marks that have been widely adopted to become market leaders. Continued growth pushes firms to invest due to high competition.
-- [x] **The BCG Matrix: Cash Cows**<br>
-Mature markets where entrenched players can maintain their position with minimal investment, allowing them to milk reliable cash flows.
+- [x] **New York Neighborhoods**<br>
 - [x] **Competitor Concentration**<br>
 Concentration Ratios (CR) and Herfindahl-Hirschman Index (HHI) of the total market share held by the top firms in the industry as well as the geographic density by neighborhood.
 - [x] **Market Size**<br>
@@ -47,29 +40,40 @@ YELP FUSION API | NYC OPEN DATA | REQUESTS
 The American Pet Products Association (APPA) [estimates](https://www.americanpetproducts.org/press_releasedetail.asp?id=191) that the pet care industry will exceed $75 billion in 2019, increasing by 3.9% over the previous year. Consumer spending categories are led by pet food ($32 billion), veterinary care ($19 billion) and supplies & OTC medicine ($16 billion).
 
 **[New York State Department of Health Zip Codes](https://www.health.ny.gov/statistics/cancer/registry/appendix/neighborhoods.htm)**
+* ZIP Code
+* Neighborhood
+* Borough
+
+**[Yelp Pet Stores and Pet Services](https://www.yelp.com/fusion)**
+* Business Category
+* Business ID
+* Business Name
+* Is Closed / Open
+* Review Count
+* Rating
+* Zip Code
+
+**[NYC Dog Licensing Dataset](https://data.cityofnewyork.us/Health/NYC-Dog-Licensing-Dataset/nu7n-tubp)**
+* Animal Name
+* Animal Gender
+* Animal Birth Month
+* Breed Name
+* Borough
+* Zip Code
+* Community District
+* City Council District
+* Congressional District
+* State Senatorial District
+* License Issued Date
+* License Expired Date
+
+## Output Results
+PYTHON | PANDAS | SQL | SQLITE3 | JSON | PLOTLY | SEABORN | MATPLOTLIB | NUMPY | TIME
+
+**[New York Neighborhoods](https://github.com/acdick/framing_data_with_dataframes/blob/master/src/01_Neighborhoods.ipynb)**
 * 5 Boroughs
 * 42 Neighborhoods
 * 178 ZIP Codes
-
-**[Yelp Pet Stores and Pet Services](https://www.yelp.com/fusion)**
-* 1,502 unique pet stores and services actively operating in 2019
-
-**[NYC Dog Licensing Dataset](https://data.cityofnewyork.us/Health/NYC-Dog-Licensing-Dataset/nu7n-tubp)**
-* 122,000 licensed dogs in New York City
-
-## Output Results
-PYTHON | PANDAS | SQL | SQLITE3 | JSON | TIME | PLOTLY | SEABORN | MATPLOTLIB | NUMPY
-
-**[New York City Neighborhoods](https://github.com/acdick/framing_data_with_dataframes/blob/master/src/01_Neighborhoods.ipynb)**
-
-**[Pet Stores and Services](https://github.com/acdick/framing_data_with_dataframes/blob/master/src/02_Pet_Stores_and_Services.ipynb)**
-
-**[Licensed NYC Dogs](https://github.com/acdick/framing_data_with_dataframes/blob/master/src/03_Dogs.ipynb)**
-
-**[Exploratory Data Analysis](https://github.com/acdick/framing_data_with_dataframes/blob/master/src/04_Exploratory_Data_Analysis.ipynb)**
-* Competitor concentration
-* Market size
-* The BCG Growth-Share Matrix
 
 **First 10 Neighborhoods in New York, Mixed Format (Wide and Long ), NYS Dept. of Health**<br>
 
@@ -82,6 +86,12 @@ PYTHON | PANDAS | SQL | SQLITE3 | JSON | TIME | PLOTLY | SEABORN | MATPLOTLIB | 
 <p align="center">
   <img src="/img/03_First_10_Neighborhoods_Long_Format.png" title="First 10 Neighborhoods Long Format">
 </p>
+
+**[Pet Stores and Services](https://github.com/acdick/framing_data_with_dataframes/blob/master/src/02_Pet_Stores_and_Services.ipynb)**
+* 1,502 unique pet stores and services actively operating in 2019
+* Store Count
+* Share Percentage by Business
+* Concentration Index
 
 **First 10 New York Pet Stores and Pet Services Actively Operating in 2019, Yelp Fusion API**<br>
 
@@ -107,10 +117,27 @@ PYTHON | PANDAS | SQL | SQLITE3 | JSON | TIME | PLOTLY | SEABORN | MATPLOTLIB | 
   <img src="/img/06_Concentration_Ratios_for_Top_8_Neighborhoods.png" title="Concentration Ratios for Top 8 Neighborhoods">
 </p>
 
+**[Licensed NYC Dogs](https://github.com/acdick/framing_data_with_dataframes/blob/master/src/03_Dogs.ipynb)**
+* 121,713 licensed dogs in New York City
+
 **First 10 of 121,713 New York Licensed Dogs from 2014–2022, NYC Open Data**<br>
 <p align="center">
   <img src="/img/07_First_10_Licensed_Dogs.png" title="First 10 Licensed Dogs">
 </p>
+
+**[Exploratory Data Analysis](https://github.com/acdick/framing_data_with_dataframes/blob/master/src/04_Exploratory_Data_Analysis.ipynb)**
+* Competitor concentration
+* Market size
+* The BCG Growth-Share Matrix
+
+* **Dogs**<br>
+Low-growth, low-share markets that typically struggle to break-even. The conventional wisdom of analysts is to liquidate business in this area.
+* **Question Marks**<br>
+High-growth, low-share markets that have both potential and risk. New businesses target this area through a select and divest strategy.
+* **Stars**<br>
+Question Marks that have been widely adopted to become market leaders. Continued growth pushes firms to invest due to high competition.
+* **Cash Cows**<br>
+Mature markets where entrenched players can maintain their position with minimal investment, allowing them to milk reliable cash flows.
 
 **Market Share and Growth Rate (2014–2019) of Pet Care Industry for First 10 Neighborhoods in New York**<br>
 
