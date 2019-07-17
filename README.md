@@ -132,7 +132,7 @@ PYTHON | PANDAS | PLOTLY | SEABORN | MATPLOTLIB | NUMPY
 **Concentration Ratios for the Top 8 Neighborhoods in the New York Pet Care Industry**
 * Total percentage of market share grouped by neighborhood
 * CR4 of top four neighborhoods (30.6%) and CR8 of top eight neighborhoods (49.9%)
-* Herfindahl-Hirschman Index (HHI) of 448 out of 10,000 (high competition)
+* Herfindahl-Hirschman Index (HHI) of 448 out of 10,000 (low density)
 
 <p align="center">
   <img src="/img/06_Concentration_Ratios_for_Top_8_Neighborhoods.png" title="Concentration Ratios for Top 8 Neighborhoods">
